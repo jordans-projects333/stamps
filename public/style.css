@@ -46,6 +46,7 @@ main{
     height: 40px;
     width: 40px;
     position: absolute;
+    z-index: 3;
     /* filter: invert(15%) sepia(75%) saturate(6700%) hue-rotate(358deg) brightness(106%) contrast(114%); */
     /* transform: translate(-50%, -50%); */
     /* transform-origin: center; */
@@ -64,7 +65,7 @@ main{
     gap: 1rem;
     padding: 1rem;
     padding-left: 1rem;
-    z-index: -3;
+    z-index: 2;
 }
 
 .color-picker div:nth-child(1){
